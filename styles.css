@@ -1,0 +1,133 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 15px 20px;
+}
+
+nav .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}/* Hero Section */
+.hero {
+    text-align: center;
+    background: url('bg.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #cc5200;
+}
+
+/* Featured Products */
+.featured {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.featured h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-item img {
+    width: 150px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.product-item img:hover {
+    transform: scale(1.1);
+}
+
+/* Categories */
+.categories {
+    text-align: center;
+    padding: 40px;
+    background: #f9f9f9;
+}
+
+.category-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.category-item {
+    background: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.category-item:hover {
+    background: #cc5200;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+footer a {
+    color: #ff6600;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    color: white;
+}
